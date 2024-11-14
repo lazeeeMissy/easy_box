@@ -1,0 +1,63 @@
+#app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .parent {
+    height: 95vh;
+    width: 95vw;
+    border-radius: 10px;
+    background-color: #e1eaff;
+    border: 5px solid cornflowerblue;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #e1eaff;
+  
+  }
+  .child-boxes-container {
+    height:75%;
+    background-color: lightgoldenrodyellow;
+    border: yellow 2px solid;
+    margin: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+  .op-btn {
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgb(133, 174, 251);
+    border-radius: 15px;
+    color: white;
+    border: rgb(108, 145, 237) 2px solid;
+    transition: all 0.3s ease;
+  }
+  .op-btn:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border: rgb(96, 132, 206) 4px solid;
+
+    background-color: rgb(96, 132, 206);
+  }
+  .child-box {
+    height: 70px;
+    display: flex;
+    margin: 5px;
+    background-color: #e1eaff;
+    border: #5a8bfd 4px solid;
+    border-radius: 10px;
+    justify-content: center;  
+    align-items: center;  
+    transition: all 0.3s ease;
+
+  }
+  .child-box:hover{
+    background-color: #b6cbfa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: #b6cbfa 4px solid;
+  }
